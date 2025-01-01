@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import backgroundImage from '../../assets/home.jpg';
-import homeGif from '../../assets/gifhome.gif'; // Importando o GIF
+import homeGif from '../../assets/gifhome.gif';
 
 const Background = styled.div`
   background-image: url(${backgroundImage});
@@ -41,10 +41,11 @@ const HomeTitle = styled.h1`
 `;
 
 const HomeGif = styled.img`
-  width: 300px; // Ajuste o tamanho do GIF conforme necessário
+  width: 300px; 
   height: auto;
-  margin-right: 50px; // Aumentando o espaço entre o GIF e o texto
-  transform: translateX(-10%); // Move o GIF mais para a esquerda
+  margin-right: 50px;
+  transform: translateX(-10%);
+  border-radius: 15px; 
 `;
 
 const HomeText = styled.p`
